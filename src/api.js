@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "nsybckend-production-a891.up.railway.app",
 });
 
 // helper to show backend message
